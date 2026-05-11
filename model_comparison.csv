@@ -1,0 +1,4 @@
+Model,Accuracy,Precision,Recall,F1-Score
+TF-IDF + Logistic Regression (Baseline 1),0.7002,0.6958,0.7002,0.6969
+Word2Vec + SVM (Baseline 2),0.6775,0.6797,0.6775,0.6744
+XLM-RoBERTa (Fine-Tuned),0.7305,0.73,0.73,0.73

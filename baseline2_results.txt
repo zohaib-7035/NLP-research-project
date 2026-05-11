@@ -1,0 +1,4 @@
+Word2Vec + SVM Baseline Results
+=================================
+Accuracy: 0.6821
+F1-score: 0.6785

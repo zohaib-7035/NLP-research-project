@@ -1,0 +1,14 @@
+\begin{table}[h]
+\centering
+\caption{Performance Comparison on Roman Urdu Sentiment Dataset}
+\label{tab:results}
+\begin{tabular}{lcccc}
+\hline
+\textbf{Model} & \textbf{Accuracy} & \textbf{Precision} & \textbf{Recall} & \textbf{F1} \\
+\hline
+  TF-IDF + LR (Baseline 1) & 0.7000 & 0.7000 & 0.7000 & 0.7000 \\
+  Word2Vec + SVM (Baseline 2) & 0.6821 & 0.6785 & 0.6821 & 0.6785 \\
+  \textbf{XLM-RoBERTa (Fine-Tuned)} & 0.7305 & 0.7300 & 0.7300 & 0.7300 \\
+\hline
+\end{tabular}
+\end{table}

@@ -1,0 +1,81 @@
+XLM-RoBERTa Fine-Tuned Results
+========================================
+Accuracy: 0.7305
+
+Classification Report:
+              precision    recall  f1-score   support
+
+    negative       0.75      0.74      0.74      2057
+    positive       0.77      0.79      0.78      2302
+     neutral       0.62      0.61      0.61      1259
+
+    accuracy                           0.73      5618
+   macro avg       0.71      0.71      0.71      5618
+weighted avg       0.73      0.73      0.73      5618
+
+
+
+10 Reviews: XLM-RoBERTa Correct, Logistic Regression Wrong
+
+============================================================
+
+
+Example 1:
+  Review    :  stayed in west bengal medinipur here 60rs kg 
+  True Label: neutral
+  XLM-R Pred: neutral
+  LR Pred   : negative
+
+Example 2:
+  Review    :  main india se hun mujhe yai song itna psnd hai ki main ky btau main bed karti hun jab college ky liye ready hoti hun ta
+  True Label: positive
+  XLM-R Pred: positive
+  LR Pred   : neutral
+
+Example 3:
+  Review    :  film ka naam kya hai 
+  True Label: neutral
+  XLM-R Pred: neutral
+  LR Pred   : positive
+
+Example 4:
+  Review    :  october ertugrul 
+  True Label: neutral
+  XLM-R Pred: neutral
+  LR Pred   : positive
+
+Example 5:
+  Review    :  meerab is super stubborn good riddance  
+  True Label: neutral
+  XLM-R Pred: neutral
+  LR Pred   : positive
+
+Example 6:
+  Review    :  kaam se kaam 2017 me to nahi daikh sktay agar dunia baqi rahe to 2100 me shyed sudhar jayn 
+  True Label: positive
+  XLM-R Pred: positive
+  LR Pred   : negative
+
+Example 7:
+  Review    :  aisi pictures han hmarai parents ki 
+  True Label: neutral
+  XLM-R Pred: neutral
+  LR Pred   : negative
+
+Example 8:
+  Review    :  mante nahi hain ye kitna bhi kah lo 
+  True Label: neutral
+  XLM-R Pred: neutral
+  LR Pred   : negative
+
+Example 9:
+  Review    :  jab dikhana nahin tha tou itna bara ad lgany ki kya zaroorat thi qatil 
+  True Label: negative
+  XLM-R Pred: negative
+  LR Pred   : neutral
+
+Example 10:
+  Review    :   satr ma se barh ky m0hbt karta han hmse so plz asy qufria alfaaz usi na kiye jain 
+  True Label: negative
+  XLM-R Pred: negative
+  LR Pred   : neutral

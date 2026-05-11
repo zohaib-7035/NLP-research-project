@@ -1,0 +1,34 @@
+# Virtual environment
+venv/
+env/
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large data files (optional - uncomment if you don't want to track them)
+# *.csv
+# cleaned_reviews.csv
+
+# Model output checkpoints (can be large)
+xlm_roberta_output/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db

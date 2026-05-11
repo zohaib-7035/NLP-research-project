@@ -1,0 +1,12 @@
+Logistic Regression Baseline Results
+========================================
+              precision    recall  f1-score   support
+
+           0       0.70      0.75      0.73      2057
+           1       0.75      0.76      0.76      2302
+           2       0.59      0.50      0.54      1259
+
+    accuracy                           0.70      5618
+   macro avg       0.68      0.67      0.67      5618
+weighted avg       0.70      0.70      0.70      5618
+
